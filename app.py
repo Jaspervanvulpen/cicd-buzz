@@ -8,6 +8,7 @@ app = Flask(__name__)
 def generate_buzz():
     page = '<html><body><h1>'
     page += generator.generate_buzz()
+    page += "Greetings from Jasper van Vulpen </br>"
     page += '</h1></body></html>'
     return page
 
