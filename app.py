@@ -11,5 +11,6 @@ def generate_buzz():
     page += '</h1></body></html>'
     return page
 
+# Two blank lines after the function definition
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)))
